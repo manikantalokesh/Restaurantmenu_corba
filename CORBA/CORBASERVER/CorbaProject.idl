@@ -1,0 +1,12 @@
+module Restaurant
+{
+  interface RestC
+  {
+  	string sayHello();
+  	string Menu();
+  	string OrderFood(in string user,in long friedchicken,in long cola,in float money);
+  	string customerOrder(in string user);
+  	string viewcurrentorders();
+  
+  };
+};
